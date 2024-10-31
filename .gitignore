@@ -9,7 +9,14 @@ __pycache__/
 
 # C extensions
 *.so
-
+.vercel
+__pycache__/
+*.pyc
+.env
+.venv
+venv/
+artifacts/*.pkl
+node_modules/
 # Distribution / packaging
 .Python
 build/
