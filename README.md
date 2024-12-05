@@ -29,7 +29,7 @@ python app.py
 - Data preprocessing, feature engineering, and hyperparameter tuning implemented to ensure high model accuracy (80%).
 
 # **Dataset**
-The dataset contains real estate information for 45 major Canadian cities, including:
+The dataset was sourced from Kaggle and contains real estate information for Canada's top 45 cities. Key features of the dataset include:
 
 - Price: Listed price of the property (in Canadian dollars).
 - City and Province: Geographical details of the property.
