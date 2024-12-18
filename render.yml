@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: canadian-house-price
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn wsgi:app --chdir /opt/render/project/src
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.12.6
